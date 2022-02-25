@@ -64,8 +64,8 @@ dd {
 	margin-top:60px;
 }
 #box {
-	margin-right:0%;
-	padding-right:0px;
+	float: left;
+	margin-right: 15px;
 }
 /* Button color #1abc9c */
 
