@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Homepage</title>
+	<link href="styles.css" rel="stylesheet">
+
+</head>
+<body>
+	<nav>
+		<ol>
+	        <li class="crumb"><a href="./home.html">Home</a></li>
+	        <li class="crumb"><a href="./profile.html">Profile</a></li>
+	        <li class="crumb"><a href="./about.html">About</a></li>
+	    </ol>
+	</nav>
+
+	<content>
+		<h1 id = 'greeting'>Hello world</h1>
+		<!-- insert hello world here -->
+
+		<img id = 'rubberDuck' src="https://media2.dallasobserver.com/dal/imager/u/magnum/12047659/giant-rubber-duck-credit-chung-sung-jun-getty.jpg?cb=1642542121">
+
+		<p>Welcome to our page!</p>
+		<ul>
+			<li>I guess you look nice today.</li>
+			<li>what can we do for you?</li>
+			<li>please contact us first.</li>
+		</ul>
+
+		<h2>Contact Us</h2>
+		<form id="contact">
+			Your name:
+			<input type="text">
+
+			Message:
+			<input type="textarea">
+
+			<input type="submit">
+			<form id = 'howDid'>
+				How did you hear about us?
+				<div>
+					<input type = 'checkbox' name = 'google' value = 'Google'>
+					<label for="google">Google</label>
+				</div>
+				<div>
+					<input type = 'checkbox' name = 'friend' value = 'Friend'>
+					<label for="friend">Friend</label>
+				</div>
+				<div>
+					<input type = 'checkbox' name = 'other' value = 'Other'>
+					<label for="other">Other</label>
+				</div>
+	
+			</form>
+		</form>
+
+	</content>
+
+
+	<script src="about.js"></script>
+
+</body>
+</html>

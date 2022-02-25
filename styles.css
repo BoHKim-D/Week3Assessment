@@ -1,0 +1,88 @@
+@import 
+url('https://fonts.googleapis.com/css?family=Raleway:300,400');
+
+body {
+  background: #ddd;
+  margin: 1rem;
+  padding: 1rem;
+  max-width: 500px;
+  margin: 2rem auto;
+  font-family: "Raleway", sans-serif;
+}
+
+nav {
+	border-bottom: 2px solid orange;
+}
+
+ol {
+	padding-left: 0;
+}
+
+.crumb {
+	margin-right: 2em;
+	display: inline;
+}
+
+a {
+	color: orange;
+}
+
+a:visited {
+	color: crimson;
+}
+
+
+input {
+	display: block;
+}
+
+#rubberDuck, .profile {
+	max-width: 300px;
+}
+p {
+	font-weight: bold;
+	font-size:large;
+}
+dd {
+	font-size: 8pt;
+}
+.name {
+	font-size: 2em;
+	font-weight: bold;
+	margin:20px auto;
+}
+/* Button color #1abc9c */
+
+button {
+	margin-right: 10px;
+	width: 150px;
+	background: #1abc9c;
+	border-bottom: #16a085 3px solid;
+	border-left: #16a085 1px solid;
+	border-right: #16a085 1px solid;
+	border-radius: 6px;
+	text-align: center;
+	color: white;
+	padding: 10px;
+	float: left;
+	font-size: 12px;
+	font-weight: 800;
+	border-top: 0;
+	cursor: pointer;
+}
+button:hover {
+	opacity: 0.8;
+}
+button:active {
+	width: 150px;
+	background: #18B495;
+	border-bottom: #16a085 1px solid;
+	border-left: #16a085 1px solid;
+	border-right: #16a085 1px solid;
+	border-radius: 6px;
+	text-align: center;
+	color: white;
+	padding: 10px;
+	margin-top: 3px;
+	float: left;
+}
