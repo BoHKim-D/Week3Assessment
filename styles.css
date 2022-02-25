@@ -69,7 +69,7 @@ dd {
 }
 /* Button color #1abc9c */
 
-button {
+.profileBtn {
 	margin-right: 10px;
 	width: 150px;
 	background: #1abc9c;
@@ -86,10 +86,10 @@ button {
 	border-top: 0;
 	cursor: pointer;
 }
-button:hover {
+.profileBtn:hover {
 	opacity: 0.8;
 }
-button:active {
+.profileBtn:active {
 	width: 150px;
 	background: #18B495;
 	border-bottom: #16a085 1px solid;
