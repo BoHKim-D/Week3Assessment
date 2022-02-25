@@ -9,7 +9,10 @@ function handleSubmit(evt) {
 }
 function overPic(event) {
 	event.preventDefault();
-	alert('Oh... you found me, Good job!');
+	
+	setTimeout( () => {
+		alert('Oh... you found me, Good job!');
+},500);
 }
 
 let form = document.querySelector('form#contact');
